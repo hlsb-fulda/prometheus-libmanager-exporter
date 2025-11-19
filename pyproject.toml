@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-prometheus-libmanager-exporter = "prometheus_libmanager_exporter:."
+prometheus-libmanager-exporter = "prometheus_libmanager_exporter.__main__:main"
 
 [build-system]
 requires = ["hatchling >= 1.27.0"]

@@ -151,11 +151,11 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "beautifulsoup4", specifier = ">=4.14.2" },
-    { name = "click", specifier = ">=8.3.1" },
-    { name = "prometheus-client", specifier = ">=0.23.1" },
-    { name = "requests", specifier = ">=2.32.5" },
-    { name = "structlog", specifier = ">=25.5.0" },
+    { name = "beautifulsoup4", specifier = ">=4.12" },
+    { name = "click", specifier = ">=8.1" },
+    { name = "prometheus-client", specifier = ">=0.20" },
+    { name = "requests", specifier = ">=2.30" },
+    { name = "structlog", specifier = ">=25.4" },
 ]
 
 [package.metadata.requires-dev]
