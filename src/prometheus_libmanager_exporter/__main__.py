@@ -37,7 +37,7 @@ def main(url, insecure, username, password, port):
     collector = Collector(scraper)
     REGISTRY.register(collector)
 
-    start_http_server(port)
+    start_http_server(port, addr="::")
 
     while True:
         time.sleep(1)
