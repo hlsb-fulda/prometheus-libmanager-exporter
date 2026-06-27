@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     
     container:
-      image: ghcr.io/astral-sh/uv:0.11.24-python3.9-alpine@sha256:74f790a258c5ca972409de3b4be99fa03102248c9fc7035d2e641bb044a2e0bb
+      image: ghcr.io/astral-sh/uv:0.11.25-python3.9-alpine@sha256:527f793416fa5a33619ba40d486cf30be24d809a7929e4ef3e14ffe3a602e4d5
     
     steps:
       - name: Checkout code
